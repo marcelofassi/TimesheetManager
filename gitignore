@@ -1,0 +1,71 @@
+## Archivos de Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build
+bin/
+obj/
+out/
+[Ll]og/
+
+## Archivos de dependencias
+packages/
+*.nupkg
+*.snupkg
+
+## Archivos de publicación
+*.publishsettings
+publish/
+app.publish/
+
+## Configuración de usuario
+*.user
+*.dbmdl
+*.bak
+*.swp
+
+## Base de datos local
+*.mdf
+*.ldf
+
+## Archivos generados por EF Core
+Migrations/
+
+## Archivos temporales
+*.tmp
+*.log
+*.tlog
+*.cache
+*.pid
+*.svclog
+
+## Rider
+.idea/
+
+## Mac
+.DS_Store
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Archivos de configuración secretos
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## Logs de Serilog
+*.log
+
+## Test results
+TestResults/
+*.trx
+*.coverage
+
+## Docker
+docker-compose.override.yml
