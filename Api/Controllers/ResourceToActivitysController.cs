@@ -1,0 +1,9 @@
+using TimesheetApi.Application.DTOs;
+using TimesheetApi.Application.Services;
+
+namespace TimesheetApi.Controllers;
+
+public class ResourceToActivitysController : CrudController<ResourceToActivity, ResourceToActivityDto>
+{
+    public ResourceToActivitysController(ResourceToActivityService service) : base(service) { }
+}
