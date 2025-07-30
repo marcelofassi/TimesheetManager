@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\TimesheetManager\\Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|d:\\work\\timesheetmanager\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|d:\\work\\timesheetmanager\\api\\validators\\proyectodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|solutionrelative:validators\\proyectodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|d:\\work\\timesheetmanager\\api\\timesheetapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|solutionrelative:timesheetapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Work\\TimesheetManager\\Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T19:27:07.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProyectoDtoValidator.cs",
+              "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\Validators\\ProyectoDtoValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\ProyectoDtoValidator.cs",
+              "ToolTip": "D:\\Work\\TimesheetManager\\Api\\Validators\\ProyectoDtoValidator.cs",
+              "RelativeToolTip": "Validators\\ProyectoDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T19:26:44.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TimesheetApi",
+              "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\TimesheetApi.csproj",
+              "RelativeDocumentMoniker": "TimesheetApi.csproj",
+              "ToolTip": "D:\\Work\\TimesheetManager\\Api\\TimesheetApi.csproj",
+              "RelativeToolTip": "TimesheetApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-30T19:26:13.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
