@@ -1,3 +1,6 @@
+using TimesheetApi.Domain;
+using TimesheetApi.Domain.Entities;
+using TimesheetApi.Application.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
 namespace TimesheetApi.Controllers

@@ -1,3 +1,5 @@
+using TimesheetApi.Domain.Entities;
+using TimesheetApi.Application.DTOs;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
