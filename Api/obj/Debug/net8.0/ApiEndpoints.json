@@ -1,5 +1,1506 @@
 [
   {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Actividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Actividades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Actividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Actividades",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ActividadeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Actividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Actividades/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Actividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Actividades/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ActividadeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Actividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Actividades/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ActividadesEstado, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ActividadesEstadoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/ActividadesEstados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ActividadesEstado, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ActividadesEstadoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/ActividadesEstados",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ActividadesEstadoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ActividadesEstado, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ActividadesEstadoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/ActividadesEstados/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ActividadesEstado, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ActividadesEstadoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/ActividadesEstados/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ActividadesEstadoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ActividadesEstado, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ActividadesEstadoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/ActividadesEstados/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Adjunto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.AdjuntoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Adjuntos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Adjunto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.AdjuntoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Adjuntos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.AdjuntoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Adjunto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.AdjuntoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Adjuntos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Adjunto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.AdjuntoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Adjuntos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.AdjuntoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Adjunto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.AdjuntoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Adjuntos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.AdjuntosActividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.AdjuntosActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/AdjuntosActividades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.AdjuntosActividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.AdjuntosActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/AdjuntosActividades",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.AdjuntosActividadeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.AdjuntosActividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.AdjuntosActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/AdjuntosActividades/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.AdjuntosActividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.AdjuntosActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/AdjuntosActividades/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.AdjuntosActividadeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.AdjuntosActividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.AdjuntosActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/AdjuntosActividades/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CargaHorarium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CargaHorariumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/CargaHorariums",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CargaHorarium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CargaHorariumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/CargaHorariums",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.CargaHorariumDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CargaHorarium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CargaHorariumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/CargaHorariums/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CargaHorarium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CargaHorariumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/CargaHorariums/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.CargaHorariumDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CargaHorarium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CargaHorariumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/CargaHorariums/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Categoria, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CategoriaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Categorias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Categoria, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CategoriaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Categorias",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.CategoriaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Categoria, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CategoriaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Categorias/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Categoria, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CategoriaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Categorias/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.CategoriaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Categoria, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CategoriaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Categorias/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CierreMe, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CierreMeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/CierreMes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CierreMe, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CierreMeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/CierreMes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.CierreMeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CierreMe, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CierreMeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/CierreMes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CierreMe, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CierreMeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/CierreMes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.CierreMeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CierreMe, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CierreMeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/CierreMes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Cliente, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ClienteDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Cliente, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ClienteDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Clientes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ClienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Cliente, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ClienteDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Clientes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Cliente, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ClienteDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Clientes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ClienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Cliente, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ClienteDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Clientes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Configuracione, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ConfiguracioneDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Configuraciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Configuracione, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ConfiguracioneDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Configuraciones",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ConfiguracioneDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Configuracione, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ConfiguracioneDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Configuraciones/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Configuracione, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ConfiguracioneDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Configuraciones/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ConfiguracioneDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Configuracione, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ConfiguracioneDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Configuraciones/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CostoRecurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CostoRecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/CostoRecursos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CostoRecurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CostoRecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/CostoRecursos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.CostoRecursoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CostoRecurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CostoRecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/CostoRecursos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CostoRecurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CostoRecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/CostoRecursos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.CostoRecursoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.CostoRecurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.CostoRecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/CostoRecursos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.EstadosDeActividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.EstadosDeActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/EstadosDeActividades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.EstadosDeActividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.EstadosDeActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/EstadosDeActividades",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.EstadosDeActividadeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.EstadosDeActividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.EstadosDeActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/EstadosDeActividades/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.EstadosDeActividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.EstadosDeActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/EstadosDeActividades/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.EstadosDeActividadeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.EstadosDeActividade, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.EstadosDeActividadeDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/EstadosDeActividades/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.EstadosRecurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.EstadosRecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/EstadosRecursos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.EstadosRecurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.EstadosRecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/EstadosRecursos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.EstadosRecursoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.EstadosRecurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.EstadosRecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/EstadosRecursos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.EstadosRecurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.EstadosRecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/EstadosRecursos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.EstadosRecursoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.EstadosRecurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.EstadosRecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/EstadosRecursos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.FechasHito, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.FechasHitoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/FechasHitos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.FechasHito, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.FechasHitoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/FechasHitos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.FechasHitoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.FechasHito, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.FechasHitoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/FechasHitos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.FechasHito, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.FechasHitoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/FechasHitos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.FechasHitoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.FechasHito, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.FechasHitoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/FechasHitos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Feriado, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.FeriadoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Feriados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Feriado, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.FeriadoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Feriados",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.FeriadoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Feriado, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.FeriadoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Feriados/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Feriado, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.FeriadoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Feriados/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.FeriadoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Feriado, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.FeriadoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Feriados/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Hito, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.HitoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Hitos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Hito, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.HitoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Hitos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.HitoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Hito, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.HitoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Hitos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Hito, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.HitoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Hitos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.HitoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Hito, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.HitoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Hitos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.HojaDeTiempo, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.HojaDeTiempoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/HojaDeTiempos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.HojaDeTiempo, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.HojaDeTiempoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/HojaDeTiempos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.HojaDeTiempoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.HojaDeTiempo, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.HojaDeTiempoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/HojaDeTiempos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.HojaDeTiempo, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.HojaDeTiempoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/HojaDeTiempos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.HojaDeTiempoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.HojaDeTiempo, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.HojaDeTiempoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/HojaDeTiempos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Jornada, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.JornadaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Jornadas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Jornada, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.JornadaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Jornadas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.JornadaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Jornada, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.JornadaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Jornadas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Jornada, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.JornadaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Jornadas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.JornadaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Jornada, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.JornadaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Jornadas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Pai, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.PaiDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Pais",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Pai, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.PaiDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Pais",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.PaiDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Pai, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.PaiDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Pais/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Pai, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.PaiDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Pais/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.PaiDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Pai, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.PaiDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Pais/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.PresupuestoMesProyecto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.PresupuestoMesProyectoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/PresupuestoMesProyectos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.PresupuestoMesProyecto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.PresupuestoMesProyectoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/PresupuestoMesProyectos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.PresupuestoMesProyectoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.PresupuestoMesProyecto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.PresupuestoMesProyectoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/PresupuestoMesProyectos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.PresupuestoMesProyecto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.PresupuestoMesProyectoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/PresupuestoMesProyectos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.PresupuestoMesProyectoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.PresupuestoMesProyecto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.PresupuestoMesProyectoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/PresupuestoMesProyectos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TimesheetApi.Controllers.ProyectosController",
     "Method": "GetAll",
     "RelativePath": "api/Proyectos",
@@ -7,6 +1508,865 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.ProyectosController",
+    "Method": "Create",
+    "RelativePath": "api/Proyectos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ProyectoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.ProyectosController",
+    "Method": "GetById",
+    "RelativePath": "api/Proyectos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.ProyectosController",
+    "Method": "Update",
+    "RelativePath": "api/Proyectos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ProyectoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.ProyectosController",
+    "Method": "Delete",
+    "RelativePath": "api/Proyectos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ProyectosTecnologia, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ProyectosTecnologiaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/ProyectosTecnologias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ProyectosTecnologia, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ProyectosTecnologiaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/ProyectosTecnologias",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ProyectosTecnologiaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ProyectosTecnologia, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ProyectosTecnologiaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/ProyectosTecnologias/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ProyectosTecnologia, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ProyectosTecnologiaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/ProyectosTecnologias/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ProyectosTecnologiaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ProyectosTecnologia, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ProyectosTecnologiaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/ProyectosTecnologias/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.RecursoCategorium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoCategoriumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/RecursoCategoriums",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.RecursoCategorium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoCategoriumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/RecursoCategoriums",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.RecursoCategoriumDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.RecursoCategorium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoCategoriumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/RecursoCategoriums/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.RecursoCategorium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoCategoriumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/RecursoCategoriums/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.RecursoCategoriumDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.RecursoCategorium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoCategoriumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/RecursoCategoriums/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Recurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Recursos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Recurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Recursos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.RecursoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Recurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Recursos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Recurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Recursos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.RecursoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Recurso, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Recursos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.RecursoTecnologium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoTecnologiumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/RecursoTecnologiums",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.RecursoTecnologium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoTecnologiumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/RecursoTecnologiums",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.RecursoTecnologiumDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.RecursoTecnologium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoTecnologiumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/RecursoTecnologiums/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.RecursoTecnologium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoTecnologiumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/RecursoTecnologiums/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.RecursoTecnologiumDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.RecursoTecnologium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.RecursoTecnologiumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/RecursoTecnologiums/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ResourceToActivity, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ResourceToActivityDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/ResourceToActivitys",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ResourceToActivity, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ResourceToActivityDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/ResourceToActivitys",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ResourceToActivityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ResourceToActivity, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ResourceToActivityDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/ResourceToActivitys/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ResourceToActivity, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ResourceToActivityDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/ResourceToActivitys/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ResourceToActivityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ResourceToActivity, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ResourceToActivityDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/ResourceToActivitys/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ResourceToProject, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ResourceToProjectDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/ResourceToProjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ResourceToProject, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ResourceToProjectDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/ResourceToProjects",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ResourceToProjectDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ResourceToProject, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ResourceToProjectDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/ResourceToProjects/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ResourceToProject, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ResourceToProjectDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/ResourceToProjects/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.ResourceToProjectDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.ResourceToProject, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.ResourceToProjectDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/ResourceToProjects/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Tecnologia, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.TecnologiaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Tecnologias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Tecnologia, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.TecnologiaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Tecnologias",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.TecnologiaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Tecnologia, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.TecnologiaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Tecnologias/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Tecnologia, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.TecnologiaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Tecnologias/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.TecnologiaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Tecnologia, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.TecnologiaDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Tecnologias/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Ubicacione, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UbicacioneDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Ubicaciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Ubicacione, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UbicacioneDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Ubicaciones",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.UbicacioneDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Ubicacione, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UbicacioneDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Ubicaciones/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Ubicacione, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UbicacioneDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Ubicaciones/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.UbicacioneDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.Ubicacione, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UbicacioneDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Ubicaciones/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.UbicacionOficinasDiverium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UbicacionOficinasDiveriumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/UbicacionOficinasDiveriums",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.UbicacionOficinasDiverium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UbicacionOficinasDiveriumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/UbicacionOficinasDiveriums",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.UbicacionOficinasDiveriumDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.UbicacionOficinasDiverium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UbicacionOficinasDiveriumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/UbicacionOficinasDiveriums/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.UbicacionOficinasDiverium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UbicacionOficinasDiveriumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/UbicacionOficinasDiveriums/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.UbicacionOficinasDiveriumDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.UbicacionOficinasDiverium, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UbicacionOficinasDiveriumDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/UbicacionOficinasDiveriums/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.User, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UserDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.User, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UserDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.User, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UserDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.User, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UserDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TimesheetApi.Application.DTOs.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimesheetApi.Controllers.CrudController\u00602[[TimesheetApi.Domain.Entities.User, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TimesheetApi.Application.DTOs.UserDto, TimesheetApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

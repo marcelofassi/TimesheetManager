@@ -1,22 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using TimesheetApi.Domain.Entities;
+﻿namespace TimesheetApi.Domain;
 
-namespace TimesheetApi.Domain;
-
-public partial class DvrTimeSheetContext : DbContext
+public partial class DvrTimeSheetContext
 {
-    public DvrTimeSheetContext()
-    {
-    }
-
-    public DvrTimeSheetContext(DbContextOptions<DvrTimeSheetContext> options)
-        : base(options)
-    {
-    }
-
-    public virtual DbSet<Proyecto> Proyectos { get; set; }
-
-    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+    // Aquí podés agregar configuraciones personalizadas o DbSet adicionales si hiciera falta
 }
