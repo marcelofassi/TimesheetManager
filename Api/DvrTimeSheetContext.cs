@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using TimesheetApi.Domain.Entities;
 
-namespace TimesheetApi;
+namespace TimesheetApi.Domain;
 
 public partial class DvrTimeSheetContext : DbContext
 {
