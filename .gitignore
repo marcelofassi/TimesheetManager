@@ -58,6 +58,7 @@ Desktop.ini
 appsettings.Development.json
 appsettings.Local.json
 secrets.json
+Front/.env
 
 ## Logs de Serilog
 *.log
