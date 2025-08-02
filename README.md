@@ -91,6 +91,14 @@ Este proyecto incluye un archivo `.gitignore` adaptado para Visual Studio y .NET
 
 ---
 
+## 🌐 Configuración del Frontend
+
+Para conectar el frontend de React con la API, crea un archivo `.env` dentro de la carpeta `Front` con el contenido:
+```env
+VITE_API_URL=https://localhost:7225/api
+```
+Si no se establece, se usará `http://localhost:5244/api` por defecto.
+
 ## ✅ Roadmap
 
 - [x] Configuración base del proyecto
