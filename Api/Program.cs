@@ -1,4 +1,4 @@
-using FluentValidation;
+﻿using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using TimesheetApi.Application.Services;
@@ -54,25 +54,33 @@ builder.Services.AddScoped<UbicacionOficinasDiveriumService>();
 builder.Services.AddScoped<UbicacioneService>();
 builder.Services.AddScoped<UserService>();
 
-builder.Services.AddCors(o => o.AddPolicy("AllowFrontend", p =>
-    p.WithOrigins("http://localhost:5173").AllowAnyHeader().AllowAnyMethod()));
 
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173")
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseCors("AllowReactApp"); // ✅ Activá solo esta política
 
-app.UseCors("AllowFrontend");
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
+
