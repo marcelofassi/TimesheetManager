@@ -15,8 +15,8 @@ import {
   Pie,
   Cell,
   ResponsiveContainer,
-  LineChart,
-  Line,
+  AreaChart,
+  Area,
   XAxis,
   YAxis,
   Tooltip,
@@ -213,39 +213,37 @@ export default function Home() {
 
             <Box sx={{ height: "85%" }}>
               <ResponsiveContainer width="100%" height="100%">
-                <LineChart data={lineData} margin={{ top: 10, right: 20, left: 0, bottom: 0 }}>
+                <AreaChart data={lineData} margin={{ top: 10, right: 20, left: 0, bottom: 0 }}>
                   <defs>
-                    <linearGradient id="lineBlue" x1="0" y1="0" x2="0" y2="1">
+                    <linearGradient id="gradientSales" x1="0" y1="0" x2="0" y2="1">
                       <stop offset="0%" stopColor="#6366F1" stopOpacity={0.9} />
-                      <stop offset="100%" stopColor="#6366F1" stopOpacity={0.2} />
+                      <stop offset="100%" stopColor="#6366F1" stopOpacity={0} />
                     </linearGradient>
-                    <linearGradient id="lineOrange" x1="0" y1="0" x2="0" y2="1">
+                    <linearGradient id="gradientReturns" x1="0" y1="0" x2="0" y2="1">
                       <stop offset="0%" stopColor="#F59E0B" stopOpacity={0.9} />
-                      <stop offset="100%" stopColor="#F59E0B" stopOpacity={0.2} />
+                      <stop offset="100%" stopColor="#F59E0B" stopOpacity={0} />
                     </linearGradient>
                   </defs>
 
-                  <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="name" />
-                  <YAxis />
+                  <CartesianGrid strokeDasharray="3 3" stroke="#E5E7EB" />
+                  <XAxis dataKey="name" stroke="#9CA3AF" tick={{ fill: "#9CA3AF" }} />
+                  <YAxis stroke="#9CA3AF" tick={{ fill: "#9CA3AF" }} />
                   <Tooltip />
-                  <Line
+                  <Area
                     type="monotone"
                     dataKey="sales"
-                    stroke="url(#lineBlue)"
+                    stroke="#6366F1"
                     strokeWidth={3}
-                    dot={{ r: 3 }}
-                    activeDot={{ r: 6 }}
+                    fill="url(#gradientSales)"
                   />
-                  <Line
+                  <Area
                     type="monotone"
                     dataKey="returns"
-                    stroke="url(#lineOrange)"
+                    stroke="#F59E0B"
                     strokeWidth={3}
-                    dot={{ r: 3 }}
-                    activeDot={{ r: 6 }}
+                    fill="url(#gradientReturns)"
                   />
-                </LineChart>
+                </AreaChart>
               </ResponsiveContainer>
             </Box>
           </CardSoft>
