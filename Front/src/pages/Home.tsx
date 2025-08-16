@@ -197,23 +197,26 @@ export default function Home() {
       <Grid container spacing={2}>
         <Grid item xs={12} md={7}>
           <CardSoft sx={{ height: 360 }}>
-            <Stack
-              direction="row"
-              alignItems="center"
-              justifyContent="space-between"
-              mb={1.5}
-            >
-              <Typography variant="subtitle2" color="text.secondary">
-                Reports
-              </Typography>
-              <IconButton size="small">
-                <MoreVertIcon fontSize="small" />
-              </IconButton>
-            </Stack>
+            <Stack sx={{ height: "100%" }}>
+              <Stack
+                direction="row"
+                alignItems="center"
+                justifyContent="space-between"
+                mb={1.5}
+              >
+                <Typography variant="subtitle2" color="text.secondary">
+                  Reports
+                </Typography>
+                <IconButton size="small">
+                  <MoreVertIcon fontSize="small" />
+                </IconButton>
+              </Stack>
+
 
             <Box sx={{ height: "85%" }}>
               <ResponsiveContainer width="100%" height="100%">
                 <AreaChart data={lineData} margin={{ top: 10, right: 20, left: 0, bottom: 0 }}>
+
                   <defs>
                     <linearGradient id="gradientSales" x1="0" y1="0" x2="0" y2="1">
                       <stop offset="0%" stopColor="#6366F1" stopOpacity={0.9} />
@@ -246,6 +249,7 @@ export default function Home() {
                 </AreaChart>
               </ResponsiveContainer>
             </Box>
+          </Stack>
           </CardSoft>
         </Grid>
 
