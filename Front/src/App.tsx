@@ -1,14 +1,20 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ListadoProyectos from './pages/Proyectos/Listado';
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import MainLayout from "./layout/MainLayout";
+import Home from "./pages/Home";
+// import ProyectosPage from "./pages/Proyectos/ProyectosPage";
+import ProyectosPage from "./pages/Proyectos/Listado";
 
-function App() {
+
+export default function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<ListadoProyectos />} />
-      </Routes>
+      <MainLayout>
+        <Routes>
+          <Route path="/proyectos" element={<ProyectosPage />} />
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+      </MainLayout>
     </BrowserRouter>
   );
 }
-
-export default App;
