@@ -503,26 +503,29 @@ public partial class DvrTimeSheetContext : DbContext
                 .HasConstraintName("FKB5916AF2F751107F");
         });
 
+        // ==== MODIFICADO: tabla puente con PK y navegaciones ====
         modelBuilder.Entity<ResourceToProject>(entity =>
         {
-            entity
-                .HasNoKey()
-                .ToTable("ResourceToProject");
+            entity.ToTable("ResourceToProject");
 
-            entity.Property(e => e.Id).ValueGeneratedOnAdd();
+            entity.HasKey(e => e.Id);                      // PK real
+            entity.Property(e => e.Id).HasColumnName("Id");
             entity.Property(e => e.ProjectId).HasColumnName("Project_id");
             entity.Property(e => e.ResourceId).HasColumnName("Resource_id");
 
-            entity.HasOne(d => d.Project).WithMany()
-                .HasForeignKey(d => d.ProjectId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK5C129644E5876B5A");
+            entity.HasOne(e => e.Project)
+                  .WithMany(p => p.ResourceToProjects)     // navegación en Proyecto (partial)
+                  .HasForeignKey(e => e.ProjectId)
+                  .OnDelete(DeleteBehavior.ClientSetNull)
+                  .HasConstraintName("FK5C129644E5876B5A");
 
-            entity.HasOne(d => d.Resource).WithMany()
-                .HasForeignKey(d => d.ResourceId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK5C129644F751107F");
+            entity.HasOne(e => e.Resource)
+                  .WithMany(r => r.ResourceToProjects)     // navegación en Recurso (partial)
+                  .HasForeignKey(e => e.ResourceId)
+                  .OnDelete(DeleteBehavior.ClientSetNull)
+                  .HasConstraintName("FK5C129644F751107F");
         });
+        // =======================================================
 
         modelBuilder.Entity<Tecnologia>(entity =>
         {

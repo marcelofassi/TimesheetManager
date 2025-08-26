@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "D:\\Work\\TimesheetManager\\Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|d:\\work\\timesheetmanager\\api\\domain\\dvrtimesheetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|solutionrelative:domain\\dvrtimesheetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|d:\\work\\timesheetmanager\\api\\dvrtimesheetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|solutionrelative:dvrtimesheetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|d:\\work\\timesheetmanager\\api\\domain\\entities\\partials\\recurso.partial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|solutionrelative:domain\\entities\\partials\\recurso.partial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|d:\\work\\timesheetmanager\\api\\domain\\entities\\partials\\proyecto.partial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|solutionrelative:domain\\entities\\partials\\proyecto.partial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|d:\\work\\timesheetmanager\\api\\domain\\entities\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|solutionrelative:domain\\entities\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|d:\\work\\timesheetmanager\\api\\timesheetapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|solutionrelative:timesheetapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|d:\\work\\timesheetmanager\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|d:\\work\\timesheetmanager\\api\\dvrtimesheetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F5EFC8D-B875-4864-9A6C-2C07B683E6A2}|TimesheetApi.csproj|solutionrelative:dvrtimesheetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11820CBF-CCF7-4DE5-A86B-4EE26A831979}|..\\Test\\Test.csproj|d:\\work\\timesheetmanager\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -45,7 +61,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,7 +73,56 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DvrTimeSheetContext.cs",
+              "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\Domain\\DvrTimeSheetContext.cs",
+              "RelativeDocumentMoniker": "Domain\\DvrTimeSheetContext.cs",
+              "ToolTip": "D:\\Work\\TimesheetManager\\Api\\Domain\\DvrTimeSheetContext.cs",
+              "RelativeToolTip": "Domain\\DvrTimeSheetContext.cs",
+              "ViewState": "AgIAAB8CAAAAAAAAAAAkwD0CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:18:59.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Recurso.Partial.cs",
+              "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\Domain\\Entities\\Partials\\Recurso.Partial.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Partials\\Recurso.Partial.cs",
+              "ToolTip": "D:\\Work\\TimesheetManager\\Api\\Domain\\Entities\\Partials\\Recurso.Partial.cs",
+              "RelativeToolTip": "Domain\\Entities\\Partials\\Recurso.Partial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:17:28.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Proyecto.Partial.cs",
+              "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\Domain\\Entities\\Partials\\Proyecto.Partial.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Partials\\Proyecto.Partial.cs",
+              "ToolTip": "D:\\Work\\TimesheetManager\\Api\\Domain\\Entities\\Partials\\Proyecto.Partial.cs",
+              "RelativeToolTip": "Domain\\Entities\\Partials\\Proyecto.Partial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:16:49.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Proyecto.cs",
+              "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\Domain\\Entities\\Proyecto.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Proyecto.cs",
+              "ToolTip": "D:\\Work\\TimesheetManager\\Api\\Domain\\Entities\\Proyecto.cs",
+              "RelativeToolTip": "Domain\\Entities\\Proyecto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T18:50:38.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DvrTimeSheetContext.cs",
               "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\DvrTimeSheetContext.cs",
               "RelativeDocumentMoniker": "DvrTimeSheetContext.cs",
@@ -69,20 +134,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "TimesheetApi.csproj",
               "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\TimesheetApi.csproj",
               "RelativeDocumentMoniker": "TimesheetApi.csproj",
               "ToolTip": "D:\\Work\\TimesheetManager\\Api\\TimesheetApi.csproj",
               "RelativeToolTip": "TimesheetApi.csproj",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-30T19:26:13.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T19:26:13.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "HitosController.cs",
               "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\Controllers\\HitosController.cs",
               "RelativeDocumentMoniker": "Controllers\\HitosController.cs",
@@ -94,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "HitoDto.cs",
               "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\DTOs\\HitoDto.cs",
               "RelativeDocumentMoniker": "DTOs\\HitoDto.cs",
@@ -106,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "HitoService.cs",
               "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\Services\\HitoService.cs",
               "RelativeDocumentMoniker": "Services\\HitoService.cs",
@@ -118,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -130,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Work\\TimesheetManager\\Test\\Program.cs",
               "RelativeDocumentMoniker": "..\\Test\\Program.cs",
@@ -142,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ProyectoService.cs",
               "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\Services\\ProyectoService.cs",
               "RelativeDocumentMoniker": "Services\\ProyectoService.cs",
@@ -154,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "ProyectoDtoValidator.cs",
               "DocumentMoniker": "D:\\Work\\TimesheetManager\\Api\\Validators\\ProyectoDtoValidator.cs",
               "RelativeDocumentMoniker": "Validators\\ProyectoDtoValidator.cs",
