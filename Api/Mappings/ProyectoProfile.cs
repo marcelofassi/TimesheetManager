@@ -1,5 +1,6 @@
-﻿// Application/Mappings/ProyectoProfile.cs
+// Application/Mappings/ProyectoProfile.cs
 using AutoMapper;
+using System.Linq;
 using TimesheetApi.Application.DTOs;
 using TimesheetApi.Domain.Entities;
 using System.Linq;
@@ -11,6 +12,7 @@ public class ProyectoProfile : Profile
     public ProyectoProfile()
     {
         CreateMap<Proyecto, ProyectoDto>()
+
             .ForMember(dest => dest.ResourceIds, opt => opt.MapFrom(src => src.ResourceToProjects.Select(rtp => rtp.ResourceId)))
             .ForMember(dest => dest.TecnologiaIds, opt => opt.MapFrom(src => src.ProyectosTecnologias.Select(pt => pt.IdTecnologia)))
             .ForMember(dest => dest.ResourceToProjects, opt => opt.MapFrom(src => src.ResourceToProjects))
@@ -19,5 +21,10 @@ public class ProyectoProfile : Profile
         CreateMap<ProyectoDto, Proyecto>()
             .ForMember(dest => dest.ResourceToProjects, opt => opt.Ignore())
             .ForMember(dest => dest.ProyectosTecnologias, opt => opt.Ignore());
+
+            .ForMember(d => d.IdRecursos, opt => opt.MapFrom(s => s.ResourceToProjects.Select(r => r.ResourceId)))
+            .ReverseMap()
+            .ForMember(d => d.ResourceToProjects, opt => opt.Ignore());
+
     }
 }
