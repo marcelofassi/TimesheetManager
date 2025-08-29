@@ -26,13 +26,13 @@ public class CrudService<TEntity, TDto>
 
     protected object GetEntityId(TEntity entity) => _idProperty.GetValue(entity)!;
 
-    public async Task<IEnumerable<TDto>> GetAllAsync()
+    public virtual async Task<IEnumerable<TDto>> GetAllAsync()
     {
         var list = await _dbSet.ToListAsync();
         return _mapper.Map<IEnumerable<TDto>>(list);
     }
 
-    public async Task<TDto?> GetByIdAsync(object id)
+    public virtual async Task<TDto?> GetByIdAsync(object id)
     {
         var entity = await _dbSet.FindAsync(id);
         return entity == null ? null : _mapper.Map<TDto>(entity);
