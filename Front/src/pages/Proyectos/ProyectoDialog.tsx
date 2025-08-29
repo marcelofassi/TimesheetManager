@@ -24,8 +24,8 @@ export default function ProyectoDialog({ open, onClose, initial, onSaved }: Prop
   const [descripcion, setDescripcion] = useState(initial?.descripcion ?? "");
 
   // selección
-  const [tecSel, setTecSel] = useState<Tecnologia[]>(initial?.tecnologias ?? []);
-  const [recSel, setRecSel] = useState<Recurso[]>(initial?.recursos ?? []);
+  const [tecSel, setTecSel] = useState<Tecnologia[]>([]);
+  const [recSel, setRecSel] = useState<Recurso[]>([]);
 
   // catálogos
   const [tecOptions, setTecOptions] = useState<Tecnologia[]>([]);
@@ -40,18 +40,25 @@ export default function ProyectoDialog({ open, onClose, initial, onSaved }: Prop
       .then(([tecs, recs]) => {
         setTecOptions(tecs);
         setRecOptions(recs);
-        // si viene edit y sólo tenías ids, resolvélos acá si querés
+
+        if (initial) {
+          const selTecs = initial.tecnologiaIds
+            ? tecs.filter((t) => initial.tecnologiaIds!.includes(t.idTecnologia))
+            : initial.tecnologias ?? [];
+          const selRecs = initial.recursoIds
+            ? recs.filter((r) => initial.recursoIds!.includes(r.idRecurso))
+            : initial.recursos ?? [];
+          setTecSel(selTecs);
+          setRecSel(selRecs);
+        } else {
+          setTecSel([]);
+          setRecSel([]);
+        }
+
+        setNombre(initial?.nombre ?? "");
+        setDescripcion(initial?.descripcion ?? "");
       })
       .finally(() => setLoading(false));
-  }, [open]);
-
-  useEffect(() => {
-    if (!open) return;
-    // rehidratamos campos al abrir con `initial`
-    setNombre(initial?.nombre ?? "");
-    setDescripcion(initial?.descripcion ?? "");
-    setTecSel(initial?.tecnologias ?? []);
-    setRecSel(initial?.recursos ?? []);
   }, [open, initial]);
 
   const tecnologiaIds = useMemo(() => tecSel.map(t => t.idTecnologia), [tecSel]);
