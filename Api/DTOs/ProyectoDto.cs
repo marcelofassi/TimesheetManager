@@ -1,4 +1,6 @@
-﻿// Application/DTOs/ProyectoDto.cs
+// Application/DTOs/ProyectoDto.cs
+using System.Collections.Generic;
+
 namespace TimesheetApi.Application.DTOs;
 
 public class ProyectoDto
@@ -8,5 +10,6 @@ public class ProyectoDto
     public string? Descripcion { get; set; }
     public DateTime? FechaAlta { get; set; }
     public DateTime? FechaCierre { get; set; }
+    public List<int>? IdTecnologias { get; set; }
+    public List<int>? IdRecursos { get; set; }
 }
-

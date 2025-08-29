@@ -1,4 +1,4 @@
-﻿using FluentValidation;
+using FluentValidation;
 using TimesheetApi.Application.DTOs;
 
 namespace TimesheetApi.Application.Validators;
@@ -21,5 +21,11 @@ public class ProyectoDtoValidator : AbstractValidator<ProyectoDto>
             .GreaterThanOrEqualTo(x => x.FechaAlta.GetValueOrDefault())
             .When(x => x.FechaCierre.HasValue && x.FechaAlta.HasValue)
             .WithMessage("La fecha de cierre no puede ser anterior a la fecha de alta");
+
+        RuleFor(x => x.IdTecnologias)
+            .NotNull().WithMessage("Las tecnologías son obligatorias");
+
+        RuleFor(x => x.IdRecursos)
+            .NotNull().WithMessage("Los recursos son obligatorios");
     }
 }
