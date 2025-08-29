@@ -1,6 +1,4 @@
-using TimesheetApi.Domain;
-using TimesheetApi.Domain.Entities;
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using TimesheetApi.Application.DTOs;
 using TimesheetApi.Application.Services;
 
@@ -28,6 +26,13 @@ public class ProyectosController : ControllerBase
     public async Task<IActionResult> GetById(int id)
     {
         var result = await _service.GetByIdAsync(id);
+        return result == null ? NotFound() : Ok(result);
+    }
+
+    [HttpGet("{id}/detalle")]
+    public async Task<IActionResult> GetDetalle(int id)
+    {
+        var result = await _service.GetDetalleAsync(id);
         return result == null ? NotFound() : Ok(result);
     }
 
