@@ -13,13 +13,25 @@ export const getProyecto = async (id: number) => {
 };
 
 // ESTRATEGIA A: mandar ids dentro del DTO
-export const createProyecto = async (proyecto: Omit<Proyecto, "idProyecto">) => {
-  const r = await api.post<Proyecto>("/api/Proyectos", proyecto);
+export const createProyecto = async (
+  proyecto: Omit<Proyecto, "idProyecto">
+) => {
+  const payload = {
+    ...proyecto,
+    tecnologiaIds: proyecto.tecnologiaIds ?? [],
+    recursoIds: proyecto.recursoIds ?? [],
+  };
+  const r = await api.post<Proyecto>("/api/Proyectos", payload);
   return r.data;
 };
 
 export const updateProyecto = async (id: number, proyecto: Proyecto) => {
-  await api.put(`/api/Proyectos/${id}`, proyecto);
+  const payload = {
+    ...proyecto,
+    tecnologiaIds: proyecto.tecnologiaIds ?? [],
+    recursoIds: proyecto.recursoIds ?? [],
+  };
+  await api.put(`/api/Proyectos/${id}`, payload);
 };
 
 export const deleteProyecto = async (id: number) => {
